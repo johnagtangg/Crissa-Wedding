@@ -36,6 +36,10 @@ yarn-error.log*
 # vercel
 .vercel
 
+# local images (large files - manage via Supabase storage or similar)
+/images/
+/public/images/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
